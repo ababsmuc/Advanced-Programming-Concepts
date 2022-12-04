@@ -1,0 +1,3 @@
+/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/CMakeFiles/APC.dir
+/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/CMakeFiles/rebuild_cache.dir
