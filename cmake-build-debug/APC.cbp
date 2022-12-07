@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug"/>
+				<Option working_dir="/tmp/Advanced-Programming-Concepts/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="APC">
-				<Option output="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/APC" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug"/>
+				<Option output="/tmp/Advanced-Programming-Concepts/cmake-build-debug/APC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Advanced-Programming-Concepts/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
@@ -28,20 +28,20 @@
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.0/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 APC"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 APC"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="APC/fast">
-				<Option output="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/APC" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug"/>
+				<Option output="/tmp/Advanced-Programming-Concepts/cmake-build-debug/APC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/Advanced-Programming-Concepts/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="clang"/>
@@ -50,54 +50,54 @@
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/x86_64-linux-gnu/c++/11"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/llvm-10/lib/clang/10.0.0/include"/>
+					<Add directory="/usr/lib/llvm-12/lib/clang/12.0.0/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 APC/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 APC/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug"/>
+				<Option working_dir="/tmp/Advanced-Programming-Concepts/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/mnt/c/Users/HP/Desktop/APC/cmake-build-debug"/>
+				<Option working_dir="/tmp/Advanced-Programming-Concepts/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/mnt/c/Users/HP/Desktop/APC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/tmp/Advanced-Programming-Concepts/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/fixed_point.cpp">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/fixed_point.cpp">
 			<Option target="APC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/fixed_point.h">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/fixed_point.h">
 			<Option target="APC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/lookup_table.cpp">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/lookup_table.cpp">
 			<Option target="APC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/lookup_table.h">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/lookup_table.h">
 			<Option target="APC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/main.cpp">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/main.cpp">
 			<Option target="APC"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/HP/Desktop/APC/CMakeLists.txt">
+		<Unit filename="/tmp/Advanced-Programming-Concepts/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
