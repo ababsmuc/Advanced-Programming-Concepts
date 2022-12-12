@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/Advanced-Programming-Concepts
+CMAKE_SOURCE_DIR = /mnt/c/Users/HP/Advanced-Programming-Concepts
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/Advanced-Programming-Concepts/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles /tmp/Advanced-Programming-Concepts/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles /mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,30 +153,6 @@ fixed_point.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/APC.dir/build.make CMakeFiles/APC.dir/fixed_point.cpp.s
 .PHONY : fixed_point.cpp.s
 
-lookup_table.o: lookup_table.cpp.o
-.PHONY : lookup_table.o
-
-# target to build an object file
-lookup_table.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APC.dir/build.make CMakeFiles/APC.dir/lookup_table.cpp.o
-.PHONY : lookup_table.cpp.o
-
-lookup_table.i: lookup_table.cpp.i
-.PHONY : lookup_table.i
-
-# target to preprocess a source file
-lookup_table.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APC.dir/build.make CMakeFiles/APC.dir/lookup_table.cpp.i
-.PHONY : lookup_table.cpp.i
-
-lookup_table.s: lookup_table.cpp.s
-.PHONY : lookup_table.s
-
-# target to generate assembly for a file
-lookup_table.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/APC.dir/build.make CMakeFiles/APC.dir/lookup_table.cpp.s
-.PHONY : lookup_table.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -213,9 +189,6 @@ help:
 	@echo "... fixed_point.o"
 	@echo "... fixed_point.i"
 	@echo "... fixed_point.s"
-	@echo "... lookup_table.o"
-	@echo "... lookup_table.i"
-	@echo "... lookup_table.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

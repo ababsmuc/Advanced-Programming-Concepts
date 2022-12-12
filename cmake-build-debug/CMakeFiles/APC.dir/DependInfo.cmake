@@ -4,13 +4,21 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/mnt/c/Users/HP/Advanced-Programming-Concepts/fixed_point.cpp" "/mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles/APC.dir/fixed_point.cpp.o"
+  "/mnt/c/Users/HP/Advanced-Programming-Concepts/main.cpp" "/mnt/c/Users/HP/Advanced-Programming-Concepts/cmake-build-debug/CMakeFiles/APC.dir/main.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "Clang")
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/tmp/Advanced-Programming-Concepts/fixed_point.cpp" "CMakeFiles/APC.dir/fixed_point.cpp.o" "gcc" "CMakeFiles/APC.dir/fixed_point.cpp.o.d"
-  "/tmp/Advanced-Programming-Concepts/lookup_table.cpp" "CMakeFiles/APC.dir/lookup_table.cpp.o" "gcc" "CMakeFiles/APC.dir/lookup_table.cpp.o.d"
-  "/tmp/Advanced-Programming-Concepts/main.cpp" "CMakeFiles/APC.dir/main.cpp.o" "gcc" "CMakeFiles/APC.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
