@@ -6,19 +6,19 @@
 //#define FIXED_FROM_INT(a) (int64_t)((a) << FIXED_FBITS)
 #define FIXED_MAKE(a)     (int64_t)((a*(1 << FIXED_FBITS)))
 
-static int32_t FIXED_Mul(int64_t a, int64_t b) {
+static int64_t FIXED_Mul(int64_t a, int64_t b) {
     return(((int64_t)a*(int64_t)b) >> FIXED_FBITS);
 }
 
-static int32_t FIXED_Div(int64_t a, int64_t b) {
+static int64_t FIXED_Div(int64_t a, int64_t b) {
     return((int64_t)a<< FIXED_FBITS/ (int64_t)b);
 }
 
-static int32_t FIXED_Add(int64_t a, int64_t b) {
+static int64_t FIXED_Add(int64_t a, int64_t b) {
     return(((int64_t)a+(int64_t)b));
 }
 
-static int32_t FIXED_Sub(int64_t a, int64_t b) {
+static int64_t FIXED_Sub(int64_t a, int64_t b) {
     return(((int64_t)a-(int64_t)b));
 }
 
