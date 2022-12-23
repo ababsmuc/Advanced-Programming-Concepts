@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/HP/Advanced-Programming-Concepts/fixed_point.cpp
+iostream
+-
+complex
+-
+fixed_point.h
+/mnt/c/Users/HP/Advanced-Programming-Concepts/fixed_point.h
+
+/mnt/c/Users/HP/Advanced-Programming-Concepts/fixed_point.h
+cstdint
+-
+
 /mnt/c/Users/HP/Advanced-Programming-Concepts/main.cpp
 iostream
 -
@@ -15,4 +27,6 @@ random
 -
 ctime
 -
+fixed_point.h
+/mnt/c/Users/HP/Advanced-Programming-Concepts/fixed_point.h
 
