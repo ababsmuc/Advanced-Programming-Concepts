@@ -19,12 +19,6 @@ cstdint
 -
 
 /mnt/c/Users/HP/Advanced-Programming-Concepts/main.cpp
-iostream
--
-math.h
--
-random
--
 ctime
 -
 fixed_point.h

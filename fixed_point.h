@@ -3,19 +3,24 @@
 
 #include <cstdint>
 
-#define FIXED_BITS        64
-#define FIXED_WBITS       40
-#define FIXED_FBITS       24
-#define MAKE_FIXED(a)     (int64_t)((a*(1 << FIXED_FBITS)))
-#define MAKE_FLOAT(a)     (double )((double)a/(double) (1<< FIXED_FBITS))
 
 class fixed_point {
+private:
+#define FIXED_TOTAL_BITS        64
+#define FIXED_WHOLE_BITS       40
+#define FIXED_FRACTIONAL_BITS       24
+#define CONVERT_TO_FIXED(a)     (int64_t)((a*(1 <<  FIXED_FRACTIONAL_BITS )))
+#define CONVERT_TO_FLOAT(a)     (double )((double)a/(double) (1<<  FIXED_FRACTIONAL_BITS ))
 public:
-    static int64_t Mul(int64_t a, int64_t b);
-    void Run();
-    static int64_t Add(int64_t a, int64_t b);
-    static int64_t Sub(int64_t a, int64_t b);
-    static int64_t Div(int64_t a, int64_t b);
+    static int64_t fixed_multiplication(int64_t a, int64_t b);
+
+    void run();
+
+    static int64_t fixed_addition(int64_t a, int64_t b);
+
+    static int64_t fixed_subtraction(int64_t a, int64_t b);
+
+    static int64_t fixed_division(int64_t a, int64_t b);
 };
 
 
